@@ -25,7 +25,12 @@ SECRET_KEY = 'i37979_v43tb@8-*@16#*9k5=lc%@c4wofwc&v24(17zx@%%gc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['jodelasur.pythonanywhere.com/']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    '[::1]',
+    'jodelasur.pythonanywhere.com'
+]
 
 
 # Application definition
